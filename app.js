@@ -63,7 +63,7 @@ const checkwinner = () => {
 
         if (pos1val !== "" && pos1val === pos2val && pos2val === pos3val) {
             console.log("Winner:", pos1val);
-            showMessage(`Shabash ${pos1val} Puttar`);
+            showMessage(`Well done ${pos1val}`);
             return;
         }
     }
